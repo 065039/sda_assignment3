@@ -22,7 +22,7 @@ from pymongo import MongoClient
 # ---------------------------------------------------------------------------
 # CONFIG
 # ---------------------------------------------------------------------------
-MONGO_URI    = "mongodb+srv://usrname:pass@cluster1.hrxjzn5.mongodb.net/"
+MONGO_URI    = "mongo_url"
 DB_NAME      = "fintech_fraud"
 KAFKA_BROKER = "localhost:9092"
 TOPIC        = "transactions"
